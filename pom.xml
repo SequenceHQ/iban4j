@@ -78,15 +78,13 @@
     </dependencies>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>GitHub SequenceHQ Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/SequenceHQ/iban4j</url>
         </repository>
     </distributionManagement>
+
 
     <build>
         <plugins>
